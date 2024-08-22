@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../image/parking.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.country-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    background-color: rgba(126, 126, 126, 0.3);
+    flex-direction: column;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn_booking {
+    padding: 10px 40px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+    color: #fff;
+}
